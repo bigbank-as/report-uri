@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "properties": {
+        "date-time": {
+            "id": "/properties/date-time",
+            "type": "string"
+        },
+        "effective-expiration-date": {
+            "id": "/properties/effective-expiration-date",
+            "type": "string"
+        },
+        "hostname": {
+            "id": "/properties/hostname",
+            "type": "string"
+        },
+        "include-subdomains": {
+            "id": "/properties/include-subdomains",
+            "type": "boolean"
+        },
+        "known-pins": {
+            "id": "/properties/known-pins",
+            "items": {
+                "id": "/properties/known-pins/items",
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "port": {
+            "id": "/properties/port",
+            "type": "integer"
+        },
+        "served-certificate-chain": {
+            "id": "/properties/served-certificate-chain",
+            "items": {
+                "id": "/properties/served-certificate-chain/items",
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "validated-certificate-chain": {
+            "id": "/properties/validated-certificate-chain",
+            "items": {
+                "id": "/properties/validated-certificate-chain/items",
+                "type": "string"
+            },
+            "type": "array"
+        }
+    },
+    "type": "object"
+}

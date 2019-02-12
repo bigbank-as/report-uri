@@ -1,0 +1,4 @@
+flask
+flask-talisman
+jsonschema
+python-json-logger
